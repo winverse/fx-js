@@ -1,6 +1,6 @@
-const curry = require("../Hard/curry");
-const nop = require("../Hard/nop");
-const go1 = require("../Hard/go1");
+const curry = require("../h/curry");
+const nop = require("../h/nop");
+const go1 = require("../h/go1");
 
 const filter = curry(function* (f, iter) {
   for (const a of iter) {
