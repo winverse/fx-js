@@ -1,5 +1,5 @@
-const curry = require("../strict/curry");
-const go1 = require("../strict/go1");
+const curry = require("../Hard/curry");
+const go1 = require("../Hard/go1");
 
 const map = curry(function* (f, iter) {
   for (const a of iter) {

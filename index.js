@@ -1,4 +1,4 @@
-const { go, filter, map, reduce, sum, log } = require("./strict");
+const { go, filter, map, reduce, sum, log } = require("./Hard");
 
 const result = go(
   [1, 2, 3, 4, 5],
