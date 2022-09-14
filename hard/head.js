@@ -1,6 +1,6 @@
-const go1 = require("./go1");
+const promiseGo = require("./promiseGo");
 const take = require("./take");
 
-const head = (iter) => go1(take(1, iter), ([h]) => h);
+const head = (iter) => promiseGo(take(1, iter), ([h]) => h);
 
 module.exports = head;

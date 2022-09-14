@@ -1,5 +1,5 @@
 const getModule = require("../lib/get-modules");
 
-const modules = getModule(__dirname, "lazy", ["index"]);
+const L = getModule(__dirname, "lazy", ["index"]);
 
-module.exports = modules;
+module.exports = L;
