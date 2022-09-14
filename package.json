@@ -1,0 +1,12 @@
+{
+  "name": "fp-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "winverse <public.winverse@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+  }
+}
