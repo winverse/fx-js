@@ -1,11 +1,12 @@
-# Fx-JS - Functional programming extensions for JS
-## Specification
+# Making it myself, functional programming extensions
+
+# Specification
 - soft - Eager evaluation, works like JavaScript built-in function
 - hard - Support Iterator/Iterable protocol by Generator
 - lazy - Support Lazy evaluation
 - concurency - Support Concurrency processing (Not parallel)
 
-## Iterable protocol
+# Iterable protocol
 ```javascript
 const result = go(
   [1,2,3,4,5],
@@ -32,7 +33,7 @@ go(
 
 ```
 
-## Lazy evaluation
+# Lazy evaluation
 - `L` functions can be evaluated lazy
 - `L` is namespace for lazy functions
 ```javascript
@@ -47,7 +48,7 @@ go(
 // flow: 1 -> 1 -> 2 -> 3 -> 9 -> log
 ```
 
-## Concurrency
+# Concurrency
 - `C` functions can be concurrency.
 - `C` is namespace for concurrency functions
 
@@ -60,8 +61,11 @@ const data = await C.map(getData, range(10))
 // After 1 seconds
 // [data1, data2.. data10]
 ```
+# Reference
+- [FsJS](https://github.com/marpple/FxJS)
 
-## To-do
+
+# To-do
 ```
 Write test code with chai
 ```
