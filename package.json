@@ -5,8 +5,11 @@
   "license": "MIT",
   "author": "winverse <public.winverse@gmail.com>",
   "scripts": {
+    "test": "jest --config jest.config.js --runInBand --detectOpenHandles --watchAll",
     "start": "node index.js"
   },
   "devDependencies": {
-  }
+    "jest": "^29.0.3"
+  },
+  "dependencies": {}
 }

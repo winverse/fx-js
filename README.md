@@ -62,10 +62,4 @@ const data = await C.map(getData, range(10))
 // [data1, data2.. data10]
 ```
 # Reference
-- [FsJS](https://github.com/marpple/FxJS)
-
-
-# To-do
-```
-Write test code with chai
-```
+- [FxJS](https://github.com/marpple/FxJS)
