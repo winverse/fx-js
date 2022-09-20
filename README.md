@@ -4,7 +4,7 @@
 - soft - Eager evaluation, works like JavaScript built-in function
 - hard - Support Iterator/Iterable protocol by Generator
 - lazy - Support Lazy evaluation
-- concurency - Support Concurrency processing (Not parallel)
+- concurrency - Support Concurrency processing (Not parallel)
 
 # Iterable protocol
 ```javascript
@@ -49,7 +49,7 @@ go(
 ```
 
 # Concurrency
-- `C` functions can be concurrency.
+- `C` functions can be evaluated concurrency.
 - `C` is namespace for concurrency functions
 
 ```javascript
